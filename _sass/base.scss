@@ -24,6 +24,16 @@ a {
     text-decoration: none;
 }
 
+ul, ol {
+    margin-left: 35px;
+}
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
 .icon {
     > svg {
         display: inline-block;
