@@ -26,7 +26,7 @@ jekyll -v
 
 # Add Jekyll site
 echo "Create a new Jekyll site with the default theme"
-jekyll new . --skip-bundle --force --blank
+jekyll new . --skip-bundle --force
 
 # Jekyll creates a .gitignore file, but it can be improved, so delete it
 # NOTE: Comment out the following lines if you want to keep the original .gitignore file 
